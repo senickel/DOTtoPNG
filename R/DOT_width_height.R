@@ -4,7 +4,7 @@
 #' @param grV_obj XML of a DOT graph.
 #' @author Sebastian Nickel
 #' @importFrom magrittr %>%
-#'
+#' @export
 
 DOT_width_height<-function(grV_obj) {
   width_height<-grV_obj %>%

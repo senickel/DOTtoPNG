@@ -6,7 +6,8 @@
 #' @param width Optional custom width. Height is set relationally.
 #' @author Sebastian Nickel
 #' @importFrom magrittr %>%
-#'
+#' @export
+
 writeDOTtoPNG<-function(graphvizobj,
                         path,
                         width=NULL) {
